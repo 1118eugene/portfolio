@@ -1,0 +1,19 @@
+def calculate_area(shape, value):
+    """Calculates the area of a shape based on the given shape and value."""
+
+    if shape == "circle":
+        return 3.14159 * value * value
+    elif shape == "rectangle":
+        return value * value
+    elif shape == "triangle":
+        return value * value / 2
+    else:
+        return "Invalid shape"
+
+# Get user input for shape and value
+shape = input("Enter the shape (circle, rectangle, or triangle): ")
+value = float(input("Enter the value (radius for circle, side for square, base for triangle): "))
+
+# Calculate and display the area
+area = calculate_area(shape, value)
+print("The area of the shape is:", area)

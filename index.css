@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    text-decoration: none;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    padding: 30px;
+}
+.logo a{
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+
+}
+.nav a{
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+}
+.nav a:hover{
+    color:red;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:90%;
+    gap:2rem;
+    
+}
+.right h1{
+    font-size:25px;
+    color: black;
+    text-decoration: underline;
+
+}
+.right p{
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+.social a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow:  0 0 10px red;
+    margin-right: 20px;
+    padding: 10px;
+    font-weight: 800;
+
+}
+.social a:hover{
+    color:black;
+    background-color: red;
+    box-shadow: 0 0 10px black;
+    
+}
+.main{
+    display: flex;
+    align-items: center;
+    background-color: rgb(119, 117, 117);
+    padding:10px;
+    
+}
+
+.left img{
+    object-fit: cover;
+    width:60%;
+    height:100%;
+    border-radius: 20px;
+}
+.projects{
+    padding: 38px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 233, 233);
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    width: 600px;
+    padding:20px;
+    gap:2rem;
+}
+.individual{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap:10rem
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card .details a{
+
+    padding:10px ;
+    background-color: red;
+    color:black;
+    margin-left: 30px;
+    border-radius: 10px;
+    
+    
+}
+.card img{
+    width:500px;
+    border-radius: 5px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    flex: 1 0 100%;
+    justify-content: space-between;
+
+}
+.absolute{
+    display: flex;
+    align-items: center;
+    background-image:url(/Thought\ —\ Why\ Is\ Computer\ Science\ a\ Good\ Topic\ to\ Study_\ _\ Computer\ science\,\ Computer\ science\ major\,\ Technology\ wallpaper.jpeg);
+    justify-content: space-around;
+    width:80vw;
+    position: absolute;
+    bottom: 8rem;
+    left:6rem;
+    padding: 20px;
+    border-radius: 20px;
+    height:80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.one span{
+    font-size: 55px;
+    color:white;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: .5rem;
+}
+.details h4{
+    color:red;
+}
+.details p{
+    color:white;
+    font-weight: 600;
+}
+

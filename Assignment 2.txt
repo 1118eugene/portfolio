@@ -1,0 +1,31 @@
+/* Facts */
+male(john).
+male(mike).
+male(david).
+male(alex).
+male(mark).
+female(lisa).
+female(sarah).
+female(emily).
+female(emma).
+female(julia).
+
+parent(john, mike).
+parent(john, lisa).
+parent(lisa, sarah).
+parent(lisa, david).
+parent(mike, emily).
+parent(mike, alex).
+parent(alex, julia).
+parent(sarah, mark).
+parent(sarah, emma).
+
+/* Rules */
+father(X, Y) :- male(X), parent(X, Y).
+mother(X, Y) :- female(X), parent(X, Y).
+
+siblings(X, Y) :- parent(Z, X), parent(Z, Y), X \= Y.
+
+
+
+
